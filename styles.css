@@ -55,3 +55,12 @@ body {
   width: 50%;
   display: inline-block;
 }
+
+.home-container {
+  display: flex;
+}
+
+.home-icon {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
