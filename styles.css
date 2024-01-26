@@ -29,4 +29,6 @@ body {
 
 .footer {
   grid-area: footer;
+  height: 150px;
+  background-color: black;
 }
