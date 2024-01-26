@@ -17,6 +17,8 @@ body {
 
 .main-header {
   grid-area: header;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -31,4 +33,25 @@ body {
   grid-area: footer;
   height: 150px;
   background-color: black;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: bisque;
+}
+
+.bottom-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  background-color: lemonchiffon;
+}
+
+.search-container {
+  width: 50%;
+  display: inline-block;
 }
