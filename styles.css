@@ -11,7 +11,8 @@ body {
   grid-template-rows: auto;
   grid-template-areas:
     "header header header"
-    "left main main";
+    "left main main"
+    "footer footer footer";
 }
 
 .main-header {
@@ -24,4 +25,8 @@ body {
 
 .left-side {
   grid-area: left;
+}
+
+.footer {
+  grid-area: footer;
 }
